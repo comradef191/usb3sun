@@ -1,1 +1,5 @@
 .pio
+hardware/pcb/~usb3sun.kicad_sch.lck
+hardware/THT-PCB/~usb3sun-THT.kicad_pcb.lck
+hardware/THT-PCB/~usb3sun-THT.kicad_sch.lck
+hardware/THT-PCB/usb3sun-THT-backups/
