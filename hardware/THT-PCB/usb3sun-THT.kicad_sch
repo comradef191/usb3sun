@@ -8856,7 +8856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2219cea0-2c11-47cd-9c26-94b8c28dc7b6")
-		(property "Reference" "Q2"
+		(property "Reference" "Q7"
 			(at 226.568 43.18 0)
 			(effects
 				(font
@@ -8934,7 +8934,7 @@
 		(instances
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "Q2")
+					(reference "Q7")
 					(unit 2)
 				)
 			)
@@ -8950,7 +8950,7 @@
 		(dnp no)
 		(uuid "240b2b1b-fa9e-4fa7-94bd-57fcc5127323")
 		(property "Reference" "U3"
-			(at 65.024 166.37 0)
+			(at 65.024 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8959,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 65.024 168.148 0)
+			(at 65.024 167.894 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9173,7 +9173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c11200c-a86b-4597-9f3d-6066c2f575a5")
-		(property "Reference" "Q1"
+		(property "Reference" "Q7"
 			(at 21.59 109.22 0)
 			(effects
 				(font
@@ -9251,7 +9251,7 @@
 		(instances
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "Q1")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -9266,7 +9266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c5ce2ee-8123-4ef8-91a4-60ab6c6b7123")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 131.572 34.29 0)
 			(effects
 				(font
@@ -9344,7 +9344,7 @@
 		(instances
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11480,7 +11480,7 @@
 		(dnp no)
 		(uuid "7d8a9d6e-33f2-487d-9c28-a843951cd1f8")
 		(property "Reference" "U2"
-			(at 34.544 166.37 0)
+			(at 34.544 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,7 +11489,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 34.544 168.148 0)
+			(at 34.544 167.894 0)
 			(effects
 				(font
 					(size 1 1)
