@@ -634,203 +634,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254) hide)
@@ -5751,6 +5554,149 @@
 				)
 			)
 		)
+		(symbol "usb3sun:SSD1306_4pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0 12.7 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KiCad-SSD1306-0.91-OLED-4pin-128x32:SSD1306-0.91-OLED-4pin-128x32"
+				(at 0 12.7 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 12.7 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SSD1306_4pin_1_1"
+				(rectangle
+					(start 2.54 10.16)
+					(end 10.16 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text ".91″ OLED"
+					(at 8.89 -1.27 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "usb3sun:VSUN"
 			(power)
 			(pin_names
@@ -6029,16 +5975,16 @@
 		(uuid "da89711a-910b-45b2-aeb1-f860fbd50930")
 	)
 	(junction
+		(at 25.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0de55fe-ed86-4d57-9690-69aefdaf70dd")
+	)
+	(junction
 		(at 143.51 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e841537e-9047-41a5-9bd9-91029bbec878")
-	)
-	(junction
-		(at 17.78 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb2d61a7-7aac-4827-88eb-9fef2d2f12ff")
 	)
 	(junction
 		(at 151.13 30.48)
@@ -6140,6 +6086,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 114.3) (xy 17.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086aee91-6ce7-4592-a4e5-d4bcef905d77")
+	)
+	(wire
+		(pts
 			(xy 143.51 43.18) (xy 151.13 43.18)
 		)
 		(stroke
@@ -6167,16 +6123,6 @@
 			(type default)
 		)
 		(uuid "11eaa141-f68d-4558-af3c-146daf8643f6")
-	)
-	(wire
-		(pts
-			(xy 25.4 113.03) (xy 17.78 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141b1450-a851-403e-bdbe-e6e3f4d92cca")
 	)
 	(wire
 		(pts
@@ -6540,7 +6486,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 110.49) (xy 17.78 113.03)
+			(xy 17.78 111.76) (xy 17.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6817,6 +6763,16 @@
 			(type default)
 		)
 		(uuid "e59b50e4-143d-4036-98f4-498e485a8668")
+	)
+	(wire
+		(pts
+			(xy 26.67 114.3) (xy 25.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e907fae0-62d6-4df0-9b01-9a702e4a62e6")
 	)
 	(wire
 		(pts
@@ -7105,7 +7061,7 @@
 		(uuid b8b30a1d-b869-4394-a396-cf3061596c40)
 	)
 	(rectangle
-		(start 15.24 97.79)
+		(start 15.24 99.06)
 		(end 41.275 116.205)
 		(stroke
 			(width 0)
@@ -7117,8 +7073,8 @@
 		(uuid c09bdc1b-8c31-4844-b22f-ce1d8183efb9)
 	)
 	(rectangle
-		(start 15.24 85.09)
-		(end 36.83 97.155)
+		(start 15.24 84.455)
+		(end 38.735 98.425)
 		(stroke
 			(width 0)
 			(type default)
@@ -7311,6 +7267,16 @@
 		)
 		(uuid "3b0eb22e-ac78-454f-a6fb-2abef7d2bf99")
 	)
+	(text "2N7002DW REALLY SMOL\nFIND BIGGER "
+		(exclude_from_sim no)
+		(at 113.538 -6.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bf6977f-49b1-4099-aab4-3ad5251ac8af")
+	)
 	(text "Power Key"
 		(exclude_from_sim no)
 		(at 88.392 17.78 0)
@@ -7337,7 +7303,7 @@
 	)
 	(text "Display & External Reset"
 		(exclude_from_sim no)
-		(at 14.732 82.804 0)
+		(at 14.732 82.55 0)
 		(effects
 			(font
 				(size 2 2)
@@ -7347,6 +7313,16 @@
 			(justify left)
 		)
 		(uuid "90356c3a-91ad-4ef1-8780-e248e2e2051d")
+	)
+	(text "MMBT2222A SMOL\nBUT HAND-SOLDERABLE\nI THINK"
+		(exclude_from_sim no)
+		(at 106.934 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93e237d8-360e-4d83-aa11-c6f51aefe2dc")
 	)
 	(text "USB Interface"
 		(exclude_from_sim no)
@@ -7812,7 +7788,7 @@
 		(uuid "96d400a7-f7fe-446b-9dc6-5068c10ee608")
 	)
 	(label "DISPLAY_ENABLE"
-		(at 25.4 105.41 0)
+		(at 25.4 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7900,7 +7876,7 @@
 		(uuid "b61e41d4-bb68-4bb1-8378-d5cc84251fd2")
 	)
 	(label "DISPLAY_GND"
-		(at 17.78 100.33 0)
+		(at 17.78 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8470,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.34 133.35 0)
 			(effects
 				(font
@@ -8805,7 +8781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 82.042 96.52 90)
 			(effects
 				(font
@@ -9165,7 +9141,7 @@
 	)
 	(symbol
 		(lib_id "usb3sun:2N7002DW")
-		(at 20.32 105.41 0)
+		(at 20.32 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9174,7 +9150,7 @@
 		(dnp no)
 		(uuid "2c11200c-a86b-4597-9f3d-6066c2f575a5")
 		(property "Reference" "Q7"
-			(at 21.59 109.22 0)
+			(at 21.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +9159,7 @@
 			)
 		)
 		(property "Value" "2N7002DW"
-			(at 27.686 101.854 0)
+			(at 27.686 103.124 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9192,7 +9168,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 15.24 107.315 0)
+			(at 15.24 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9179,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/2N7002DW.pdf"
-			(at 20.32 105.41 0)
+			(at 20.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 105.41 0)
+			(at 20.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9198,7 @@
 			)
 		)
 		(property "LCSC" "C83571"
-			(at 22.86 107.95 0)
+			(at 22.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,6 +9460,81 @@
 		)
 	)
 	(symbol
+		(lib_id "usb3sun:SSD1306_4pin")
+		(at 27.94 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3524c7f2-ee08-40fc-83b4-855a5e7c8cfc")
+		(property "Reference" "U6"
+			(at 33.02 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 40.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad-SSD1306-0.91-OLED-4pin-128x32:SSD1306-0.91-OLED-4pin-128x32"
+			(at 27.94 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7d6a063-c8d9-4bc1-ab27-db1fd2137d25")
+		)
+		(pin "3"
+			(uuid "77c03cff-d4c0-4d21-9979-04808b4e73c6")
+		)
+		(pin "4"
+			(uuid "3e0f3e9e-03b3-48a6-8a39-fbfe959bc9ba")
+		)
+		(pin "1"
+			(uuid "1bbe8ab0-5151-4dc0-a48a-1bdd5527491b")
+		)
+		(instances
+			(project "usb3sun-THT"
+				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 53.34 140.97 270)
 		(mirror x)
@@ -9510,7 +9561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.34 140.97 0)
 			(effects
 				(font
@@ -9654,7 +9705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 127.762 26.67 90)
 			(effects
 				(font
@@ -9890,7 +9941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 173.482 29.21 90)
 			(effects
 				(font
@@ -9999,81 +10050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 33.02 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48a8549e-26aa-424e-87f4-01f51014945e")
-		(property "Reference" "J1"
-			(at 31.75 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 35.306 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "054155c6-9ddd-4465-b104-c05d052bf220")
-		)
-		(pin "3"
-			(uuid "f351e0fe-be0f-42d6-9db4-0dce9493565a")
-		)
-		(pin "2"
-			(uuid "2027a414-04e0-4c4f-ba0b-16db8265f60e")
-		)
-		(pin "1"
-			(uuid "ae57febc-c071-4ab8-a621-581a6426a726")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 73.66 151.13 0)
 		(mirror y)
@@ -10168,7 +10144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.472 29.21 90)
 			(effects
 				(font
@@ -10644,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 149.352 26.67 90)
 			(effects
 				(font
@@ -11216,7 +11192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 141.732 39.37 90)
 			(effects
 				(font
@@ -12105,7 +12081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 220.472 35.56 90)
 			(effects
 				(font
@@ -12333,7 +12309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 74.422 109.22 90)
 			(effects
 				(font
@@ -12586,7 +12562,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 25.4 109.22 0)
+		(at 25.4 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12594,7 +12570,7 @@
 		(dnp no)
 		(uuid "9eaf5d33-7bd1-45e7-9c0e-ab0da23e7900")
 		(property "Reference" "R1"
-			(at 26.416 107.442 0)
+			(at 26.416 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +12579,7 @@
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 25.4 111.252 90)
+			(at 25.4 112.522 90)
 			(effects
 				(font
 					(size 1 1)
@@ -12611,8 +12587,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 23.622 109.22 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 23.622 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +12597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 109.22 0)
+			(at 25.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12630,7 +12606,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 25.4 109.22 0)
+			(at 25.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13242,7 +13218,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 17.78 113.03 0)
+		(at 26.67 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13251,7 +13227,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2abdc0b-72ed-4ffb-9c2b-ff7ec4816c7e")
 		(property "Reference" "#PWR015"
-			(at 17.78 119.38 0)
+			(at 33.02 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13260,7 +13236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 118.11 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13269,7 +13245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 113.03 0)
+			(at 26.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13278,7 +13254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 113.03 0)
+			(at 26.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13287,7 +13263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 113.03 0)
+			(at 26.67 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13731,7 +13707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 66.802 96.52 90)
 			(effects
 				(font
@@ -14504,7 +14480,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MLT-7525"
+		(property "Value" "SEA-1285F"
 			(at 72.898 36.576 90)
 			(effects
 				(font
@@ -14513,7 +14489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:PUIAudio_SMT_0825_S_4_R"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 76.2 31.115 90)
 			(effects
 				(font
@@ -14522,7 +14498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2207271030_Jiangsu-Huaneng-Elec-MLT-7525_C95299.pdf"
+		(property "Datasheet" ""
 			(at 76.2 31.115 90)
 			(effects
 				(font
@@ -14540,16 +14516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 78.74 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C95299"
+		(property "LCSC" "C2693577"
 			(at 82.55 29.0899 0)
 			(effects
 				(font
@@ -14892,7 +14859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 89.662 109.22 90)
 			(effects
 				(font
@@ -14961,7 +14928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.34 135.89 0)
 			(effects
 				(font
@@ -15105,7 +15072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 120.142 39.37 90)
 			(effects
 				(font
@@ -15241,7 +15208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 53.34 138.43 0)
 			(effects
 				(font
@@ -15543,7 +15510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 165.862 41.91 90)
 			(effects
 				(font

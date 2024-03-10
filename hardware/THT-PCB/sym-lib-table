@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "usb3sun")(type "KiCad")(uri "/media/f191/Storage Drive/KiCad/Forks/usb3sun/hardware/pcb/usb3sun.kicad_sym")(options "")(descr ""))
+)
