@@ -1084,151 +1084,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Small"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_Small_0_1"
-				(polyline
-					(pts
-						(xy 0.762 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -3246,196 +3101,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_BJT:MMBT5550L"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT5550L"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.6A Ic, 140V Vce, NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMBT5550L_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT5550L_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5861,12 +5526,6 @@
 		(uuid "38af0f19-058c-4dfc-b5ac-9f37ba001fa3")
 	)
 	(junction
-		(at 87.63 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47de1ce3-d3a2-4770-97b1-465665b3003d")
-	)
-	(junction
 		(at 143.51 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5877,12 +5536,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e8b75f5-155e-4af8-a32d-bc220cf6f3c8")
-	)
-	(junction
-		(at 83.82 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f704060-8348-4332-a889-1d71fd8e3a12")
 	)
 	(junction
 		(at 111.76 33.02)
@@ -5903,28 +5556,10 @@
 		(uuid "80333002-6b67-4a34-b108-b6fc25f0518b")
 	)
 	(junction
-		(at 72.39 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92faf6a0-000b-4f89-8b02-b5d24eeff5ab")
-	)
-	(junction
 		(at 278.13 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96b1d2ba-d201-4e7e-a8b2-8908169ef64c")
-	)
-	(junction
-		(at 68.58 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c486458-63f0-45b9-a23f-da1203792522")
-	)
-	(junction
-		(at 87.63 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c7310fd-b661-4c7a-a047-0cf686ebc2ab")
 	)
 	(junction
 		(at 121.92 43.18)
@@ -5967,12 +5602,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9d0a405-b15c-4157-9ae2-cfe6e8940c21")
-	)
-	(junction
-		(at 72.39 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da89711a-910b-45b2-aeb1-f860fbd50930")
 	)
 	(junction
 		(at 25.4 114.3)
@@ -6116,16 +5745,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 90.17) (xy 83.82 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11eaa141-f68d-4558-af3c-146daf8643f6")
-	)
-	(wire
-		(pts
 			(xy 92.71 41.91) (xy 92.71 43.18)
 		)
 		(stroke
@@ -6223,26 +5842,6 @@
 			(type default)
 		)
 		(uuid "3ba4a98b-191e-45cc-b069-740a040bed0b")
-	)
-	(wire
-		(pts
-			(xy 83.82 90.17) (xy 87.63 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f2dfabe-1fe7-46b8-a476-46f30759ce02")
-	)
-	(wire
-		(pts
-			(xy 72.39 113.03) (xy 76.2 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "410a9967-74d5-4540-9dc6-beec54bc5cb6")
 	)
 	(wire
 		(pts
@@ -6496,16 +6095,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 83.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b08383-621b-4b58-b710-481f334e665a")
-	)
-	(wire
-		(pts
 			(xy 95.25 33.02) (xy 107.95 33.02)
 		)
 		(stroke
@@ -6566,36 +6155,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 113.03) (xy 87.63 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c6e78f-c1b1-41a9-a003-b66b2ff18c70")
-	)
-	(wire
-		(pts
-			(xy 68.58 90.17) (xy 72.39 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace4ae02-ba4e-4a82-845b-7006f2163158")
-	)
-	(wire
-		(pts
-			(xy 87.63 90.17) (xy 91.44 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af16f510-df45-4440-870e-f44feb4d1fd7")
-	)
-	(wire
-		(pts
 			(xy 29.21 152.4) (xy 29.21 154.94)
 		)
 		(stroke
@@ -6603,16 +6162,6 @@
 			(type default)
 		)
 		(uuid "b0556add-0729-4cf8-86a5-822ba83fae87")
-	)
-	(wire
-		(pts
-			(xy 87.63 113.03) (xy 91.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0741291-d20f-4725-9eba-1bbadfb8064f")
 	)
 	(wire
 		(pts
@@ -6666,16 +6215,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 113.03) (xy 72.39 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c446fb-e18b-46e3-b484-45dbb622f5ec")
-	)
-	(wire
-		(pts
 			(xy 60.96 138.43) (xy 55.88 138.43)
 		)
 		(stroke
@@ -6716,16 +6255,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 90.17) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d26c61c5-e823-4e6d-bbb0-22c591bd161e")
-	)
-	(wire
-		(pts
 			(xy 143.51 33.02) (xy 143.51 35.56)
 		)
 		(stroke
@@ -6753,16 +6282,6 @@
 			(type default)
 		)
 		(uuid "e181e0be-92d1-4c22-af65-cf1edf81617f")
-	)
-	(wire
-		(pts
-			(xy 68.58 90.17) (xy 68.58 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59b50e4-143d-4036-98f4-498e485a8668")
 	)
 	(wire
 		(pts
@@ -6834,16 +6353,6 @@
 		)
 		(uuid "fc50e294-9b78-41ec-9b58-c8ef4c4bb2a1")
 	)
-	(wire
-		(pts
-			(xy 68.58 100.33) (xy 68.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fecc37f3-4c1f-4d02-acb1-0667927e4269")
-	)
 	(rectangle
 		(start 200.66 22.86)
 		(end 232.41 48.895)
@@ -6869,8 +6378,8 @@
 		(uuid 16d87818-6666-4e64-9044-3aa04cd48d70)
 	)
 	(rectangle
-		(start 65.405 80.645)
-		(end 97.79 117.475)
+		(start 65.405 80.01)
+		(end 85.725 106.045)
 		(stroke
 			(width 1)
 			(type default)
@@ -6953,8 +6462,8 @@
 		(uuid 5ed17e54-3a07-4691-8ec0-b361d3303db6)
 	)
 	(rectangle
-		(start 81.915 85.09)
-		(end 96.52 116.205)
+		(start 75.565 83.82)
+		(end 84.455 104.775)
 		(stroke
 			(width 0)
 			(type default)
@@ -6977,8 +6486,8 @@
 		(uuid 66234e5e-01f4-4803-8c03-0997e9040829)
 	)
 	(rectangle
-		(start 66.675 85.09)
-		(end 81.28 116.205)
+		(start 66.675 83.82)
+		(end 74.93 104.775)
 		(stroke
 			(width 0)
 			(type default)
@@ -7314,16 +6823,6 @@
 		)
 		(uuid "90356c3a-91ad-4ef1-8780-e248e2e2051d")
 	)
-	(text "MMBT2222A SMOL\nBUT HAND-SOLDERABLE\nI THINK"
-		(exclude_from_sim no)
-		(at 106.934 78.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "93e237d8-360e-4d83-aa11-c6f51aefe2dc")
-	)
 	(text "USB Interface"
 		(exclude_from_sim no)
 		(at 21.336 128.27 0)
@@ -7400,9 +6899,19 @@
 		)
 		(uuid "e4d4e531-e336-4626-b63e-4e20bc4a5814")
 	)
+	(text "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder\n"
+		(exclude_from_sim no)
+		(at 250.698 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5b99efc-c6a2-4b24-a21a-7057c2e5e535")
+	)
 	(text "Power LEDs"
 		(exclude_from_sim no)
-		(at 73.152 84.328 0)
+		(at 66.04 83.566 0)
 		(effects
 			(font
 				(size 2 2)
@@ -8063,85 +7572,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 83.82 110.49 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ab40501-6fd5-4802-a864-2d1c7db77b7f")
-		(property "Reference" "D3"
-			(at 85.852 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CMOZ1L8"
-			(at 87.376 104.902 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 83.82 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMOZ2L4_SERIES.PDF"
-			(at 83.82 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5240494"
-			(at 81.28 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf1f8351-8017-4948-8896-df61887fdd4d")
-		)
-		(pin "2"
-			(uuid "abadc895-e911-4d35-b18d-58b6150e438b")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 31.75 191.77 0)
 		(unit 1)
@@ -8438,7 +7868,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22Ω"
 			(at 53.34 133.35 90)
 			(effects
 				(font
@@ -8492,6 +7922,75 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15da77e6-35c1-4d5c-bdc5-538e2a9ed619")
+		(property "Reference" "R14"
+			(at 79.756 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 78.74 99.314 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 76.962 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "456b79fa-f169-4ea9-86e9-9160964188ed")
+		)
+		(pin "2"
+			(uuid "93cdf6ae-6f5d-4e39-8b99-aec5708e3f0d")
+		)
+		(instances
+			(project "usb3sun-THT"
+				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8689,7 +8188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 113.03 0)
+		(at 78.74 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8698,7 +8197,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d7df96a-d50a-48c2-92da-e5c551e040e4")
 		(property "Reference" "#PWR046"
-			(at 87.63 119.38 0)
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 118.11 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 113.03 0)
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 113.03 0)
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 113.03 0)
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,75 +8248,6 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 83.82 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ff6819d-b057-487c-b148-fc519ba11eb2")
-		(property "Reference" "R16"
-			(at 84.836 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 83.82 98.044 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 82.042 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfe07616-b0c8-49ba-897d-6783da4b671a")
-		)
-		(pin "2"
-			(uuid "c71707ae-8488-41a0-bb76-d0871530b186")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9075,7 +8505,7 @@
 	)
 	(symbol
 		(lib_id "usb3sun:VSUN")
-		(at 87.63 90.17 0)
+		(at 78.74 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9084,7 +8514,7 @@
 		(fields_autoplaced yes)
 		(uuid "2963fc38-b643-4706-a978-3eba2f868965")
 		(property "Reference" "#PWR045"
-			(at 87.63 93.98 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +8523,7 @@
 			)
 		)
 		(property "Value" "VSUN"
-			(at 87.63 86.36 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +8531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 90.17 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +8540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 90.17 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +8549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 90.17 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +8983,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22Ω"
 			(at 53.34 140.97 90)
 			(effects
 				(font
@@ -9748,87 +9178,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 68.58 110.49 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d8e9251-29f7-4cdc-a079-b0e68916bcab")
-		(property "Reference" "D2"
-			(at 70.612 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CMOZ1L8"
-			(at 72.136 104.902 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 68.58 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMOZ2L4_SERIES.PDF"
-			(at 68.58 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5240494"
-			(at 66.04 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddf2249e-d1c8-4a64-8129-b12e13641b09")
-		)
-		(pin "2"
-			(uuid "a3da2366-4bd8-49a1-990c-5a47b559a352")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
-		(at 91.44 92.71 90)
+		(at 78.74 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9836,7 +9187,7 @@
 		(dnp no)
 		(uuid "415ae5ed-c75c-42f2-9592-dc747a5e2686")
 		(property "Reference" "D4"
-			(at 92.456 90.932 90)
+			(at 79.756 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,8 +9195,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "19-213/Y2C-CQ2R2L/3T(CY)"
-			(at 93.98 94.5515 90)
+		(property "Value" ""
+			(at 81.28 93.2815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,8 +9205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 91.44 92.71 90)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 78.74 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,8 +9214,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf"
-			(at 91.44 92.71 90)
+		(property "Datasheet" ""
+			(at 78.74 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +9224,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 92.71 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,8 +9232,8 @@
 				(hide yes)
 			)
 		)
-		(property "colour" "yellow"
-			(at 91.694 94.234 90)
+		(property "colour" "Red"
+			(at 79.248 93.472 90)
 			(effects
 				(font
 					(size 1 1)
@@ -9890,8 +9241,8 @@
 				(justify right)
 			)
 		)
-		(property "LCSC" "C72038"
-			(at 93.98 92.075 0)
+		(property "LCSC" "C440523"
+			(at 81.28 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +9630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 273.05 46.99 0)
 			(effects
 				(font
@@ -10306,7 +9657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1664"
+		(property "LCSC" "C376975"
 			(at 275.59 46.3613 0)
 			(effects
 				(font
@@ -11604,90 +10955,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT5550L")
-		(at 88.9 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f99cc1f-1904-40ee-a46c-2b9a00d4a85c")
-		(property "Reference" "Q5"
-			(at 91.694 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 94.996 105.918 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 93.98 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8512"
-			(at 93.98 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7489f4a0-93b7-49d3-877c-e69982e5843a")
-		)
-		(pin "2"
-			(uuid "323c3d4f-eab7-465a-b005-eb1e2eacba38")
-		)
-		(pin "3"
-			(uuid "c1bab5c8-fe24-49b1-8d95-619c9c9de45f")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "usb3sun:VSUN")
 		(at 92.71 41.91 0)
 		(unit 1)
@@ -11780,7 +11047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 273.05 30.48 0)
 			(effects
 				(font
@@ -11807,7 +11074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1664"
+		(property "LCSC" "C376975"
 			(at 275.59 29.8513 0)
 			(effects
 				(font
@@ -11833,7 +11100,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 76.2 92.71 90)
+		(at 69.85 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11841,7 +11108,7 @@
 		(dnp no)
 		(uuid "89f4b5f3-5530-4466-b815-2da8bb57e828")
 		(property "Reference" "D1"
-			(at 77.216 90.932 90)
+			(at 70.866 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,8 +11116,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "19-213/Y2C-CQ2R2L/3T(CY)"
-			(at 78.74 94.5515 90)
+		(property "Value" ""
+			(at 72.39 93.2815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,8 +11126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 76.2 92.71 90)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 69.85 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,8 +11135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf"
-			(at 76.2 92.71 90)
+		(property "Datasheet" ""
+			(at 69.85 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +11145,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 92.71 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,8 +11153,8 @@
 				(hide yes)
 			)
 		)
-		(property "colour" "yellow"
-			(at 76.454 94.234 90)
+		(property "colour" "Blue"
+			(at 70.358 93.472 90)
 			(effects
 				(font
 					(size 1 1)
@@ -11895,8 +11162,8 @@
 				(justify right)
 			)
 		)
-		(property "LCSC" "C72038"
-			(at 78.74 92.075 0)
+		(property "LCSC" "C2895474"
+			(at 72.39 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,75 +11550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98719043-0691-4401-bb77-cf9e784d9d4c")
-		(property "Reference" "R14"
-			(at 77.216 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6k2Ω"
-			(at 76.2 111.252 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 74.422 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ded8a9a8-6f45-4f92-8b08-f59e55c7c9eb")
-		)
-		(pin "2"
-			(uuid "22ef8999-4fd9-4da4-af9c-5d38c68c4c7d")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 101.6 190.5 0)
 		(unit 1)
@@ -12442,7 +11640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 242.57 46.99 0)
 			(effects
 				(font
@@ -12469,7 +11667,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1664"
+		(property "LCSC" "C376975"
 			(at 236.855 45.72 0)
 			(effects
 				(font
@@ -12856,90 +12054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT5550L")
-		(at 73.66 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6584bcb-bb81-4a1e-b0af-28411197118e")
-		(property "Reference" "Q4"
-			(at 76.454 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 79.756 105.918 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 78.74 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8512"
-			(at 78.74 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d08caef9-eb0a-4d72-bca5-18af759bcaab")
-		)
-		(pin "2"
-			(uuid "8595d219-325a-458d-ab56-912bb6281083")
-		)
-		(pin "3"
-			(uuid "a71cfd98-cb34-48bd-a046-c6f3d272b1fa")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 30.48 21.59 270)
 		(unit 1)
@@ -13310,7 +12424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 250.19 30.48 0)
 			(effects
 				(font
@@ -13337,7 +12451,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1664"
+		(property "LCSC" "C376975"
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -13675,75 +12789,6 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c24619b7-117f-4a38-a335-0ddf58facca2")
-		(property "Reference" "R15"
-			(at 69.596 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 68.58 98.044 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 66.802 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd30742b-03d9-408c-87fd-fa56ca7e6587")
-		)
-		(pin "2"
-			(uuid "2cd2a21f-5666-494b-b377-eace53115240")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14701,7 +13746,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 113.03 0)
+		(at 69.85 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14710,7 +13755,7 @@
 		(fields_autoplaced yes)
 		(uuid "de366af7-9fbd-4089-8542-73c270d81c40")
 		(property "Reference" "#PWR044"
-			(at 72.39 119.38 0)
+			(at 69.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14719,7 +13764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 118.11 0)
+			(at 69.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14728,7 +13773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 113.03 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14737,7 +13782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 113.03 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14746,7 +13791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 113.03 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14768,7 +13813,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 72.39 90.17 0)
+		(at 69.85 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14777,7 +13822,7 @@
 		(fields_autoplaced yes)
 		(uuid "e11e6b99-3fb4-4a44-a2f3-e8d3bc9be03f")
 		(property "Reference" "#PWR043"
-			(at 72.39 93.98 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,7 +13831,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 72.39 86.36 0)
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14794,7 +13839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 90.17 0)
+			(at 69.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14803,7 +13848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 90.17 0)
+			(at 69.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14812,7 +13857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 90.17 0)
+			(at 69.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,75 +13872,6 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e359f769-0381-44b2-8114-6d5586218445")
-		(property "Reference" "R17"
-			(at 92.456 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6k2Ω"
-			(at 91.44 111.252 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 89.662 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd81f5af-8e9b-4baf-b4a0-30b0233b1426")
-		)
-		(pin "2"
-			(uuid "869a8ab4-4c64-46fb-a6f9-0db7f1fb89ec")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -14920,7 +13896,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22Ω"
 			(at 53.34 135.89 90)
 			(effects
 				(font
@@ -15200,7 +14176,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22Ω"
 			(at 53.34 138.43 90)
 			(effects
 				(font
@@ -15254,6 +14230,75 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f10a82bb-01b1-4ac0-ad05-bfb3f577bad0")
+		(property "Reference" "R15"
+			(at 70.866 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 69.85 99.314 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 68.072 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67c29adb-ec53-4fb8-8746-fa2b3e856279")
+		)
+		(pin "2"
+			(uuid "cbcf95d1-e335-4cef-829c-9c1fcb7db993")
+		)
+		(instances
+			(project "usb3sun-THT"
+				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
+					(reference "R15")
 					(unit 1)
 				)
 			)
