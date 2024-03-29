@@ -1195,7 +1195,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "b23d7463-59f5-49be-a2ba-f4b05422b87e")
 			(effects
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "3f92122e-806b-4a9a-bee2-6a5202ec4dcb")
 			(effects
@@ -1418,7 +1418,7 @@
 			(uuid "1d4c503e-161e-4595-8a0e-f7bd8e5758a3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "5f80745d-5884-4881-ac76-f6910f9464d0")
 			(effects
@@ -2589,7 +2589,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q4"
-			(at 1.27 -1.778 270)
+			(at 1.27 -1.778 -90)
 			(layer "F.SilkS")
 			(uuid "63b206a0-c47f-4b12-978a-f09af41251bd")
 			(effects
@@ -2600,7 +2600,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 1.27 2.79 270)
+			(at 1.27 2.79 -90)
 			(layer "F.Fab")
 			(uuid "696fde92-3464-4f6e-aacd-1515599b8712")
 			(effects
@@ -2768,7 +2768,7 @@
 			(uuid "9b5fd850-ef9f-41ad-a444-8c4bf048e67e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 270)
+			(at 1.27 0 -90)
 			(layer "F.Fab")
 			(uuid "453aab4c-58ab-45f2-9e9f-925bf44f700b")
 			(effects
@@ -3709,7 +3709,7 @@
 			)
 		)
 		(property "Value" "SDD32C05L01"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "b546f271-9c7c-4a09-a16f-12be178548cf")
 			(effects
@@ -3944,7 +3944,7 @@
 			(uuid "3c4ba802-13a1-4bc3-9d12-c2eaa6f4343a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "743fee31-4450-4281-bb44-99ee17d99d70")
 			(effects
@@ -4856,7 +4856,7 @@
 			(uuid "96a82000-ee5e-43a4-83f4-61ed473b7cb3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "238adceb-f75a-4ce8-a2e9-f0d4a0a102aa")
 			(effects
@@ -5982,7 +5982,7 @@
 			(uuid "6f2bbf17-5e8a-4950-afea-e367268bcc71")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "7d35f103-5751-4bf0-8bea-0abc1d37ecab")
 			(effects
@@ -6638,7 +6638,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.SilkS")
 			(uuid "2ce64d47-b899-4725-b26c-fcf7d64ddb3e")
 			(effects
@@ -6650,7 +6650,7 @@
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "B.Fab")
 			(uuid "5a2e1918-bdb9-4663-a673-4a8b12571850")
 			(effects
@@ -6866,7 +6866,7 @@
 			(uuid "5a53f5ba-9f64-4d6a-8655-3e0e32cf5690")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.Fab")
 			(uuid "d2906475-2ff4-4c9f-8695-3ef4040f5ad4")
 			(effects
@@ -8011,7 +8011,7 @@
 			)
 		)
 		(property "Value" "330pF"
-			(at 1.25 -2.55 360)
+			(at 1.25 -2.55 0)
 			(layer "B.Fab")
 			(uuid "ad41c6a7-d41c-4731-a21f-8ab8f7521a77")
 			(effects
@@ -8221,7 +8221,7 @@
 			(uuid "b9406262-e48d-4881-ac0d-b37a0f9a4951")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "B.Fab")
 			(uuid "98fc753a-7304-4ba7-a2be-37d988385176")
 			(effects
@@ -8271,7 +8271,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R9"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.SilkS")
 			(uuid "26b30976-536b-4d6c-88b7-27970511cb0e")
 			(effects
@@ -8283,7 +8283,7 @@
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "B.Fab")
 			(uuid "56fc3964-968d-4d1e-80f1-8447c0d01c0e")
 			(effects
@@ -8499,7 +8499,7 @@
 			(uuid "aa4b4b56-0a53-4114-8887-2d116faa7e9d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.Fab")
 			(uuid "cef743aa-f900-4af5-b49a-691ce8ec7177")
 			(effects
@@ -8562,7 +8562,7 @@
 			)
 		)
 		(property "Value" "330pF"
-			(at 1.25 -2.55 270)
+			(at 1.25 -2.55 -90)
 			(layer "B.Fab")
 			(uuid "b093fd12-1618-4f99-91be-e9e188e7bf31")
 			(effects
@@ -8772,7 +8772,7 @@
 			(uuid "3c899539-5c58-4ac5-8b51-c64ebb94fd38")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "B.Fab")
 			(uuid "de54db9a-37e2-4d12-b52b-3e3f02a11057")
 			(effects
@@ -10225,7 +10225,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.SilkS")
 			(uuid "1b1f202d-6fe6-4933-8fb3-db0357f9667f")
 			(effects
@@ -10237,7 +10237,7 @@
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "B.Fab")
 			(uuid "ff170a7d-1b62-450a-9ecc-7d98127e12a6")
 			(effects
@@ -10453,7 +10453,7 @@
 			(uuid "90f057b8-7040-4e32-b7ad-8f78ef6babb5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.Fab")
 			(uuid "1b85b1a2-fbf9-4586-b3e2-7ab6dbd064e2")
 			(effects
@@ -10516,7 +10516,7 @@
 			)
 		)
 		(property "Value" "330pF"
-			(at 1.25 -2.55 270)
+			(at 1.25 -2.55 -90)
 			(layer "B.Fab")
 			(uuid "ded89290-2bf8-4e26-9c50-45e6c176b176")
 			(effects
@@ -10726,7 +10726,7 @@
 			(uuid "4f357448-e4d0-443a-b3b8-d5219f905e10")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "B.Fab")
 			(uuid "b2dfdf52-a9a4-41a9-a679-180de7cb9661")
 			(effects
@@ -10776,7 +10776,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 1.778 360)
+			(at 1.27 1.778 0)
 			(layer "B.SilkS")
 			(uuid "a4785984-6562-4fbc-beeb-c8fe9dca1351")
 			(effects
@@ -10788,7 +10788,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 1.27 -2.79 360)
+			(at 1.27 -2.79 0)
 			(layer "B.Fab")
 			(uuid "8d8a29ac-76b4-47e9-a8a9-6db54fd030eb")
 			(effects
@@ -10961,7 +10961,7 @@
 			(uuid "3d07eb23-88b7-4a85-a08d-04891402a6bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "B.Fab")
 			(uuid "06f48e45-3615-46fe-9424-757125fd62a1")
 			(effects
@@ -12166,7 +12166,7 @@
 			)
 		)
 		(property "Value" "330pF"
-			(at 1.25 -2.55 360)
+			(at 1.25 -2.55 0)
 			(layer "B.Fab")
 			(uuid "25c4599c-480f-4eb6-b040-5dba5d2572b2")
 			(effects
@@ -12376,7 +12376,7 @@
 			(uuid "e7bb46be-277e-401a-8152-97103d14b00e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "B.Fab")
 			(uuid "d22cd38d-df4b-42cc-8a6f-fe6bf92d5bd3")
 			(effects
@@ -12426,7 +12426,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.SilkS")
 			(uuid "1cd5cfc6-356d-4efb-afdb-b268686a1423")
 			(effects
@@ -12438,7 +12438,7 @@
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "B.Fab")
 			(uuid "279a13e2-197c-4735-afbb-8838e14fa177")
 			(effects
@@ -12654,7 +12654,7 @@
 			(uuid "d20e8c73-ca9f-4eb3-b074-abd23d48ed32")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "B.Fab")
 			(uuid "c4f25b9f-7bb1-433a-8656-e48856d941a5")
 			(effects
@@ -12844,14 +12844,14 @@
 		(pts
 			(xy 61.628 74.037) (xy 145.546 74.037)
 		)
-		(height 13.846999)
+		(height 16.133)
 		(gr_text "83.9180 mm"
-			(at 103.587 86.733999 0)
+			(at 103.587 88.02 0)
 			(layer "User.4")
 			(uuid "7f976d4b-bad4-4ab8-b30b-e8cd5e8d9eab")
 			(effects
 				(font
-					(size 1 1)
+					(size 2 2)
 					(thickness 0.15)
 				)
 			)
@@ -12877,14 +12877,14 @@
 		(pts
 			(xy 71.628 84.037) (xy 71.624 43.434)
 		)
-		(height -15.049914)
+		(height -16.450416)
 		(gr_text "40.6030 mm"
-			(at 57.726086 63.73687 -89.99435551)
+			(at 57.325584 63.736909 -89.99435551)
 			(layer "User.4")
 			(uuid "d6b782c1-3996-46e2-9224-c2066a91bc40")
 			(effects
 				(font
-					(size 1 1)
+					(size 2 2)
 					(thickness 0.15)
 				)
 			)
