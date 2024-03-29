@@ -6665,16 +6665,6 @@
 		)
 		(uuid "3b0eb22e-ac78-454f-a6fb-2abef7d2bf99")
 	)
-	(text "2N7002DW REALLY SMOL\nFIND BIGGER "
-		(exclude_from_sim no)
-		(at 113.538 -6.604 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3bf6977f-49b1-4099-aab4-3ad5251ac8af")
-	)
 	(text "Power Key"
 		(exclude_from_sim no)
 		(at 88.392 17.78 0)
@@ -6878,17 +6868,6 @@
 		)
 		(uuid "0aff9889-7131-4f0e-b309-63950175ff55")
 	)
-	(label "D2+"
-		(at 19.05 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bcead49-9191-4871-abb9-1205ce97cf7e")
-	)
 	(label "DISPLAY_ENABLE"
 		(at 30.48 55.88 180)
 		(fields_autoplaced yes)
@@ -6966,17 +6945,6 @@
 		)
 		(uuid "2b9254f3-2875-4d80-83fd-a101ab28f30f")
 	)
-	(label "D1+"
-		(at 19.05 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "32bb7f86-05f3-495e-9dc5-33f4544316c3")
-	)
 	(label "DISPLAY_SDA"
 		(at 66.04 66.04 0)
 		(fields_autoplaced yes)
@@ -7010,17 +6978,6 @@
 		)
 		(uuid "3973370c-36c4-491f-a0cc-a96d572ba778")
 	)
-	(label "D2-"
-		(at 44.45 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ee33615-efc7-4806-ab6d-5b9e78ed90c0")
-	)
 	(label "VBUS1"
 		(at 21.59 152.4 180)
 		(fields_autoplaced yes)
@@ -7031,6 +6988,17 @@
 			(justify right bottom)
 		)
 		(uuid "4318e270-6ae9-42fb-adfb-478329b07f38")
+	)
+	(label "D2-"
+		(at 44.45 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45edd0fa-153f-432f-a5e6-59b3307b6530")
 	)
 	(label "INT_MTX"
 		(at 30.48 63.5 180)
@@ -7219,17 +7187,6 @@
 		)
 		(uuid "a2826f0d-795e-496a-a9c0-0a0482527b10")
 	)
-	(label "D1-"
-		(at 44.45 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a841e779-9bfd-4e8c-a98b-5b041d34d40a")
-	)
 	(label "INT_SPOWER"
 		(at 100.33 25.4 180)
 		(fields_autoplaced yes)
@@ -7284,6 +7241,17 @@
 			(justify left bottom)
 		)
 		(uuid "b817d17c-5420-4641-a6a5-e3c49349aefe")
+	)
+	(label "D1+"
+		(at 19.05 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8d2f45d-0e08-4a9b-a412-da4ad77a2e7d")
 	)
 	(label "INT_D1-"
 		(at 30.48 33.02 180)
@@ -7351,6 +7319,17 @@
 		)
 		(uuid "cfef5373-f72a-4d0e-86f1-0a2ed667fbdb")
 	)
+	(label "D1-"
+		(at 19.05 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d72d5a2a-d66f-434f-8c2f-e08687807c1e")
+	)
 	(label "INT_KTX"
 		(at 167.64 48.26 0)
 		(fields_autoplaced yes)
@@ -7383,6 +7362,17 @@
 			(justify right bottom)
 		)
 		(uuid "e9ac03ee-4431-4552-942d-757212684cd5")
+	)
+	(label "D2+"
+		(at 44.45 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f37ba328-0872-45d7-94ac-1b7e4afb53bb")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7864,84 +7854,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 53.34 133.35 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "144f516e-a21f-4a0b-bf0d-889cb82cacf5")
-		(property "Reference" "R10"
-			(at 50.8 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 53.34 133.35 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 50.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "640bfb2c-fc0c-4308-96f0-dee5384001d2")
-		)
-		(pin "2"
-			(uuid "8e143184-9077-4d72-a046-fb30ba95fb62")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 78.74 97.79 0)
 		(unit 1)
@@ -8268,6 +8180,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 133.35 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e823fe5-998e-4b2c-9ffc-0a02c499e022")
+		(property "Reference" "R11"
+			(at 50.8 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 53.34 133.35 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "166ca9d9-85c3-47e6-9de1-0f7e422f68e7")
+		)
+		(pin "2"
+			(uuid "65262e0a-0984-4e56-a2ea-7ede9727ef07")
+		)
+		(instances
+			(project "usb3sun-THT"
+				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 95.25 182.88 0)
 		(unit 1)
@@ -8537,84 +8527,6 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 53.34 140.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35c8dc51-72cb-49cd-89b4-8e628502ac06")
-		(property "Reference" "R13"
-			(at 50.8 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 53.34 140.97 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 53.34 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 50.8 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c8ef7fa-2b4b-445b-8063-e09272006758")
-		)
-		(pin "2"
-			(uuid "2b17aa8f-e57f-4284-bc0f-70d5a852518c")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11278,6 +11190,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 138.43 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a74ed3e4-2acb-430b-b7ec-772b0cbd6b38")
+		(property "Reference" "R10"
+			(at 50.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 53.34 138.43 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 53.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb418054-2d39-4fc3-a9c0-b341313b03cd")
+		)
+		(pin "2"
+			(uuid "90cc6098-9d13-42b1-8aa6-d05bdb842bd7")
+		)
+		(instances
+			(project "usb3sun-THT"
+				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 21.59 270)
 		(unit 1)
@@ -12256,6 +12246,84 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 135.89 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c17b0018-ab88-4939-aab9-396d3428f78c")
+		(property "Reference" "R13"
+			(at 50.8 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 53.34 135.89 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab31eb4f-7c92-41be-ba16-89f71cc2824c")
+		)
+		(pin "2"
+			(uuid "99bf2052-fcf1-473e-9bb4-8266e1fbd6e1")
+		)
+		(instances
+			(project "usb3sun-THT"
+				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13252,84 +13320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 53.34 135.89 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5eb644f-9750-4373-aa5b-0e0004455df0")
-		(property "Reference" "R11"
-			(at 50.8 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 53.34 135.89 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 53.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84eb355c-3b55-4792-9edd-9f2e6a918ed5")
-		)
-		(pin "2"
-			(uuid "e4ee908a-0ce2-4eda-903e-fffe477f6448")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "usb3sun:VSUN")
 		(at 242.57 44.45 0)
 		(unit 1)
@@ -13526,84 +13516,6 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 53.34 138.43 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec7fa2d0-bb10-4ff9-ac8a-ace9bfeea84b")
-		(property "Reference" "R12"
-			(at 50.8 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 53.34 138.43 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 53.34 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 50.8 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c39038f-7ce8-4122-8796-c303c87b9154")
-		)
-		(pin "2"
-			(uuid "0b770bab-c223-4cc2-b4a9-05d4fdadcba4")
-		)
-		(instances
-			(project "usb3sun-THT"
-				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13979,6 +13891,84 @@
 			(project "usb3sun-THT"
 				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 140.97 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f50329c2-15e2-448e-8ea7-1c3a1d954644")
+		(property "Reference" "R12"
+			(at 50.8 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 53.34 140.97 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08d352c0-d24f-4899-9151-904b53fdfed9")
+		)
+		(pin "2"
+			(uuid "5987a957-eb22-4327-a400-079601560878")
+		)
+		(instances
+			(project "usb3sun-THT"
+				(path "/e8fc4e41-10af-441f-8282-dd879bdc5d08"
+					(reference "R12")
 					(unit 1)
 				)
 			)
