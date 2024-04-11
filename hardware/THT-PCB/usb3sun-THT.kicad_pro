@@ -455,7 +455,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "usb3sun",
+      "marbastlib-various",
+      "KiCad-SSD1306-0.91-OLED-4pin-128x32"
+    ],
     "pinned_symbol_libs": [
       "usb3sun"
     ]
