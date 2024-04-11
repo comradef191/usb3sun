@@ -34,7 +34,6 @@
       3,
       4,
       5,
-      7,
       8,
       9,
       10,
@@ -65,7 +64,7 @@
       40
     ],
     "visible_layers": "01cd020_80000001",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
